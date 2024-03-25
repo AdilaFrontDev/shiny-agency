@@ -1,9 +1,10 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import '../../styles/index.css'
+import Home from './pages/Home/index.jsx'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
-  
-    <h1>Coucou</h1>
-  
+  <React.StrictMode>
+    <Home />
+    
+  </React.StrictMode>,
 )
