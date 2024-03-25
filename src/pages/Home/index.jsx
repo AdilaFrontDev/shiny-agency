@@ -1,6 +1,5 @@
 
 function Home() {
-
     return(
         <div>
             <h1>Coucou</h1>
